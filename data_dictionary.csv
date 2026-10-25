@@ -1,0 +1,14 @@
+column_name,description
+ID,Unique identifier for each mortality record
+zone,Area classification (e.g. Rural or Peri-urban)
+gender,Gender of the individual
+deathdate,Date of death
+age,Age of the individual at time of death
+avg_temperature,Average temperature at the location and time of record
+max_temperature,Maximum temperature at the location and time of record
+min_temperature,Minimum temperature at the location and time of record
+precipitation,Total precipitation at the location and time of record
+latitude,Latitude coordinate of the location
+longitude,Longitude coordinate of the location
+location,Name of the location (e.g. village or area)
+is_climate_sensitive,Binary target indicating whether the death is climate-sensitive (1) or not (0)

@@ -1,0 +1,18 @@
+feature_name,description,unit,source_dataset
+ID,Unique identifier used to merge downloaded climate and environmental features back to the original dataset.,string / integer,Not applicable
+rain_sum_7d,Total rainfall accumulated over the 7 days before the death date.,millimetres,CHIRPS Daily
+rain_sum_30d,Total rainfall accumulated over the 30 days before the death date.,millimetres,CHIRPS Daily
+rain_sum_90d,Total rainfall accumulated over the 90 days before the death date.,millimetres,CHIRPS Daily
+rain_days_30d,Number of days in the 30 days before the death date with rainfall greater than 1 mm.,days,CHIRPS Daily
+max_daily_rain_30d,Highest single-day rainfall observed in the 30 days before the death date.,millimetres,CHIRPS Daily
+tavg_7d,Mean 2-metre air temperature over the 7 days before the death date.,degrees Celsius,ERA5-Land Daily Aggregated
+tavg_30d,Mean 2-metre air temperature over the 30 days before the death date.,degrees Celsius,ERA5-Land Daily Aggregated
+tavg_90d,Mean 2-metre air temperature over the 90 days before the death date.,degrees Celsius,ERA5-Land Daily Aggregated
+tmax_30d,Highest daily 2-metre maximum air temperature observed in the 30 days before the death date.,degrees Celsius,ERA5-Land Daily Aggregated
+tmin_30d,Lowest daily 2-metre minimum air temperature observed in the 30 days before the death date.,degrees Celsius,ERA5-Land Daily Aggregated
+hot_days_30d,Number of days in the 30 days before the death date where daily maximum temperature exceeded 35°C.,days,ERA5-Land Daily Aggregated
+temp_range_mean_30d,"Mean daily temperature range over the 30 days before the death date, calculated as daily maximum minus daily minimum temperature.",degrees Celsius,ERA5-Land Daily Aggregated
+ndvi_30d,Median Normalized Difference Vegetation Index over the 30 days before the death date.,unitless index (-1 to 1),MODIS MOD13Q1
+ndvi_90d,Median Normalized Difference Vegetation Index over the 90 days before the death date.,unitless index (-1 to 1),MODIS MOD13Q1
+elevation,Ground elevation at the record location.,metres above sea level,SRTM
+slope,Terrain slope at the record location.,degrees,Derived from SRTM
